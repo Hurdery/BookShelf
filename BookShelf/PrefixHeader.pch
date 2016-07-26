@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  BookShelf
+//
+//  Created by metadata on 16/7/25.
+//  Copyright © 2016年 metadata. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define KScreeenWidth [UIScreen mainScreen].bounds.size.width
+#define  KScreeenHeight [UIScreen mainScreen].bounds.size.height
+#define  RANDOMCOLOR  [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+
+#endif /* PrefixHeader_pch */

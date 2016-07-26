@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34B78EB41D4710860011288D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B78EB31D4710860011288D /* DetailViewController.m */; };
 		34FA21E71D45DE69005027C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FA21E61D45DE69005027C0 /* main.m */; };
 		34FA21EA1D45DE69005027C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FA21E91D45DE69005027C0 /* AppDelegate.m */; };
 		34FA21ED1D45DE69005027C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FA21EC1D45DE69005027C0 /* ViewController.m */; };
 		34FA21F01D45DE69005027C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FA21EE1D45DE69005027C0 /* Main.storyboard */; };
 		34FA21F21D45DE69005027C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34FA21F11D45DE69005027C0 /* Assets.xcassets */; };
 		34FA21F51D45DE69005027C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FA21F31D45DE69005027C0 /* LaunchScreen.storyboard */; };
+		34FA21FE1D45DFBF005027C0 /* BFCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FA21FD1D45DFBF005027C0 /* BFCell.m */; };
+		34FA22031D45FDC6005027C0 /* AddClassVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FA22021D45FDC6005027C0 /* AddClassVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34B78EB21D4710860011288D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		34B78EB31D4710860011288D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		34FA21E21D45DE69005027C0 /* BookShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34FA21E61D45DE69005027C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34FA21E81D45DE69005027C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,11 @@
 		34FA21F11D45DE69005027C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34FA21F41D45DE69005027C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34FA21F61D45DE69005027C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34FA21FC1D45DFBF005027C0 /* BFCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCell.h; sourceTree = "<group>"; };
+		34FA21FD1D45DFBF005027C0 /* BFCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCell.m; sourceTree = "<group>"; };
+		34FA22001D45E4A4005027C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		34FA22011D45FDC6005027C0 /* AddClassVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddClassVC.h; sourceTree = "<group>"; };
+		34FA22021D45FDC6005027C0 /* AddClassVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddClassVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,13 @@
 				34FA21E91D45DE69005027C0 /* AppDelegate.m */,
 				34FA21EB1D45DE69005027C0 /* ViewController.h */,
 				34FA21EC1D45DE69005027C0 /* ViewController.m */,
+				34FA21FC1D45DFBF005027C0 /* BFCell.h */,
+				34FA21FD1D45DFBF005027C0 /* BFCell.m */,
+				34FA22011D45FDC6005027C0 /* AddClassVC.h */,
+				34FA22021D45FDC6005027C0 /* AddClassVC.m */,
+				34B78EB21D4710860011288D /* DetailViewController.h */,
+				34B78EB31D4710860011288D /* DetailViewController.m */,
+				34FA22001D45E4A4005027C0 /* PrefixHeader.pch */,
 				34FA21EE1D45DE69005027C0 /* Main.storyboard */,
 				34FA21F11D45DE69005027C0 /* Assets.xcassets */,
 				34FA21F31D45DE69005027C0 /* LaunchScreen.storyboard */,
@@ -149,9 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FA22031D45FDC6005027C0 /* AddClassVC.m in Sources */,
 				34FA21ED1D45DE69005027C0 /* ViewController.m in Sources */,
 				34FA21EA1D45DE69005027C0 /* AppDelegate.m in Sources */,
 				34FA21E71D45DE69005027C0 /* main.m in Sources */,
+				34FA21FE1D45DFBF005027C0 /* BFCell.m in Sources */,
+				34B78EB41D4710860011288D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +281,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BookShelf/PrefixHeader.pch";
 				INFOPLIST_FILE = BookShelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhiqiang.BookShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +295,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BookShelf/PrefixHeader.pch";
 				INFOPLIST_FILE = BookShelf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhiqiang.BookShelf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +324,7 @@
 				34FA21FB1D45DE69005027C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
